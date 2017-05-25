@@ -1,0 +1,133 @@
+@font-face{
+	font-family:"Chiq";
+	font-weight: bold;
+	src: url(../_font/chiq/Chiq_Reduced_Bold.ttf);
+}
+
+@font-face{
+	font-family:"Chiq";
+	src: url(../_font/chiq/Chiq_Reduced_Regular.ttf);
+}
+
+/* General Setting */
+body{
+	background-color: #d8e0e4;
+	margin:auto;
+	font-family: "Chiq" sans-serif;
+}
+
+h1{
+	font-size:4em;
+	font-weight: bold;
+	margin: 70px 70px 30px 70px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	vertical-align: center;
+}
+
+p{
+	margin: 0;
+}
+
+h2{
+	font-weight: bold;
+	color: #383838;
+	font-size: 20px;
+	margin: 25px auto 5px auto;
+}
+
+/* Hover buttons */
+a:hover, a:focus{
+	color: gray;
+}
+
+input[type=submit]:hover, input[type=submit]:focus {
+	color: gray;
+}
+
+/* Home Page */
+#homepage{
+	background-color: #d8e0e4;
+	min-width: 800px;
+	max-width: 1200px;
+	min-height: 400px;
+	max-height: 1000px;
+	margin:auto;
+}
+
+#logo{
+	position: absolute;
+	margin:0 auto;
+	top: 0;
+	left: 0;
+}
+
+#triangle-design{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#overview{
+	float: left;
+	padding-left: 35%;
+	padding-right: 8%;
+}
+
+#overview h1{
+	font-family: "Chiq" sans-serif;
+	font-weight: bold;
+	font-size: 8em;
+}
+
+#overview p{
+	padding-top: 16%;
+	padding-left: 70px;
+	font-family: "Chiq" sans-serif;
+	font-size:2em;
+}
+
+/* Quiz Page */
+#quiz{
+	margin: 0 90px;
+}
+
+/* Survey Page */
+#survey{
+	margin: 0 90px;
+}
+
+#survey-info{
+	color:gray;
+	font-size: 18px;
+	padding-left: 30px;
+}
+/* Thank you Page */
+#thanks{
+	font-family: "Chiq" sans-serif;
+	font-size:2em;
+	padding-left: 75px;
+}
+/* Buttons */
+.buttons{
+	font-family: "Chiq" sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 54px;
+	position: absolute;
+	right:4%;
+	bottom:4%;
+}
+
+input[type=submit]{
+	font-family: "Chiq" sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 54px;
+	float: right;
+	border: none;
+	margin-bottom: 20px;
+}
